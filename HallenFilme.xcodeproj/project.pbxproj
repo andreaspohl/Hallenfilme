@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E12D0B7622A1473B00421A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0B7522A1473B00421A4A /* AppDelegate.swift */; };
-		E12D0B7822A1473B00421A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0B7722A1473B00421A4A /* ViewController.swift */; };
 		E12D0B7A22A1473D00421A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12D0B7922A1473D00421A4A /* Assets.xcassets */; };
 		E12D0B7D22A1473D00421A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12D0B7B22A1473D00421A4A /* Main.storyboard */; };
 		E12D0B8922A1473D00421A4A /* HallenFilmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0B8822A1473D00421A4A /* HallenFilmeTests.swift */; };
 		E12D0B9422A1473D00421A4A /* HallenFilmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0B9322A1473D00421A4A /* HallenFilmeUITests.swift */; };
+		E12D0BA722A1484800421A4A /* Drive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0BA122A1484800421A4A /* Drive.swift */; };
+		E12D0BA822A1484800421A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0BA222A1484800421A4A /* AppDelegate.swift */; };
+		E12D0BA922A1484800421A4A /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0BA322A1484800421A4A /* PrefsViewController.swift */; };
+		E12D0BAA22A1484800421A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0BA422A1484800421A4A /* ViewController.swift */; };
+		E12D0BAB22A1484800421A4A /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0BA522A1484800421A4A /* Preferences.swift */; };
+		E12D0BAC22A1484800421A4A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D0BA622A1484800421A4A /* Movie.swift */; };
+		E161AEFD22A2F35F00688C22 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E161AEFC22A2F35F00688C22 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		E12D0B7222A1473B00421A4A /* HallenFilme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallenFilme.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E12D0B7522A1473B00421A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E12D0B7722A1473B00421A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E12D0B7922A1473D00421A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E12D0B7C22A1473D00421A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E12D0B7E22A1473D00421A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +49,13 @@
 		E12D0B8F22A1473D00421A4A /* HallenFilmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallenFilmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12D0B9322A1473D00421A4A /* HallenFilmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallenFilmeUITests.swift; sourceTree = "<group>"; };
 		E12D0B9522A1473D00421A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12D0BA122A1484800421A4A /* Drive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drive.swift; sourceTree = "<group>"; };
+		E12D0BA222A1484800421A4A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E12D0BA322A1484800421A4A /* PrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		E12D0BA422A1484800421A4A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E12D0BA522A1484800421A4A /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		E12D0BA622A1484800421A4A /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E161AEFC22A2F35F00688C22 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E161AEFD22A2F35F00688C22 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,7 @@
 				E12D0B8722A1473D00421A4A /* HallenFilmeTests */,
 				E12D0B9222A1473D00421A4A /* HallenFilmeUITests */,
 				E12D0B7322A1473B00421A4A /* Products */,
+				E161AEFB22A2F35F00688C22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +108,12 @@
 		E12D0B7422A1473B00421A4A /* HallenFilme */ = {
 			isa = PBXGroup;
 			children = (
-				E12D0B7522A1473B00421A4A /* AppDelegate.swift */,
-				E12D0B7722A1473B00421A4A /* ViewController.swift */,
+				E12D0BA222A1484800421A4A /* AppDelegate.swift */,
+				E12D0BA422A1484800421A4A /* ViewController.swift */,
+				E12D0BA322A1484800421A4A /* PrefsViewController.swift */,
+				E12D0BA122A1484800421A4A /* Drive.swift */,
+				E12D0BA622A1484800421A4A /* Movie.swift */,
+				E12D0BA522A1484800421A4A /* Preferences.swift */,
 				E12D0B7922A1473D00421A4A /* Assets.xcassets */,
 				E12D0B7B22A1473D00421A4A /* Main.storyboard */,
 				E12D0B7E22A1473D00421A4A /* Info.plist */,
@@ -122,6 +138,14 @@
 				E12D0B9522A1473D00421A4A /* Info.plist */,
 			);
 			path = HallenFilmeUITests;
+			sourceTree = "<group>";
+		};
+		E161AEFB22A2F35F00688C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E161AEFC22A2F35F00688C22 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +216,11 @@
 				TargetAttributes = {
 					E12D0B7122A1473B00421A4A = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					E12D0B8322A1473D00421A4A = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -254,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E12D0B7822A1473B00421A4A /* ViewController.swift in Sources */,
-				E12D0B7622A1473B00421A4A /* AppDelegate.swift in Sources */,
+				E12D0BAA22A1484800421A4A /* ViewController.swift in Sources */,
+				E12D0BAB22A1484800421A4A /* Preferences.swift in Sources */,
+				E12D0BA822A1484800421A4A /* AppDelegate.swift in Sources */,
+				E12D0BA722A1484800421A4A /* Drive.swift in Sources */,
+				E12D0BA922A1484800421A4A /* PrefsViewController.swift in Sources */,
+				E12D0BAC22A1484800421A4A /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +454,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = HallenFilme/HallenFilme.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ST37Z4RF7D;
@@ -440,7 +472,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = HallenFilme/HallenFilme.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ST37Z4RF7D;

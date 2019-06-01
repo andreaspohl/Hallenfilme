@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  HallenFilme
 //
-//  Created by Andreas on 31.05.19.
-//  Copyright © 2019 Andreas. All rights reserved.
+//  Created by Andreas Pohl on 15.10.17.
+//  Copyright © 2017 Andreas Pohl. All rights reserved.
 //
 
 import Cocoa
@@ -19,6 +19,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+    }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
     }
 
 
